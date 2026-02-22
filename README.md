@@ -1,11 +1,27 @@
-# Form v2.0 - Native File Upload Implementation
+# Form v2.0.2 - EcoTaxi Order Form with File Upload
+
+🔗 **Repository**: https://github.com/buckitupnet/ecoTaxi-form-v2  
+📦 **Based on**: [Buckitup-chat/ecoTaxi-form](https://github.com/Buckitup-chat/ecoTaxi-form)  
+📅 **Version**: v2.0.2 (2026-02-22)
 
 ## Overview
 
 This is a complete rewrite of the Eco-Taxi order form with **native file upload support built in from the ground up** and **production-grade SECP256K1 cryptography**. No workarounds, no hacks - clean, maintainable, secure architecture.
 
-**Latest Version**: v2.0.1 (2026-02-02 18:00)  
-**Status**: ✅ Production Ready
+**Latest Version**: v2.0.2 (2026-02-22)  
+**Status**: ⚠️ In Testing
+
+## ⚠️ Current Status
+
+**Working**:
+- ✅ User registration on eco-taxi.one
+- ✅ Text message sending via `chatSendText`
+- ✅ Base64→Hex key architecture (matches original source)
+- ✅ WebAuthn vault authentication
+- ✅ Multi-language support (EN/KA)
+
+**In Progress**:
+- ⚠️ File upload (`uploadKey` mutation returns 500 - under investigation)
 
 ## Features
 
